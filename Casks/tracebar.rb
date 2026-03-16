@@ -1,6 +1,6 @@
 cask "tracebar" do
-  version "1.2.1"
-  sha256 "3ab1870bd83d689ab18a70debeb124b839db5199261e9673e0004bc98d49852a"
+  version "1.2.2"
+  sha256 "cdde348d4f795176a9605f2d6453507cd1e1a9d51d3fcca9695a78d4ca35670f"
 
   url "https://github.com/tracebar-app/tracebar/releases/download/#{version}/TraceBar-#{version}.dmg"
   name "TraceBar"
