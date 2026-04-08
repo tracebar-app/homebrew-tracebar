@@ -1,11 +1,11 @@
 cask "tracebar" do
-  version "1.2.3"
-  sha256 "9988203ee9b76139334ef0840a8fe46905ae0dba108cc2006c0adcfa5d2930dc"
+  version "1.2.4"
+  sha256 "4c5a6f0286cac310263e5ec741dee909b4037dfbb25602c50082aa53eea51425"
 
   url "https://github.com/tracebar-app/tracebar/releases/download/#{version}/TraceBar-#{version}.dmg"
   name "TraceBar"
   desc "Continuous graphical traceroute monitoring in your menubar"
-  homepage "https://github.com/tracebar-app/tracebar"
+  homepage "https://tracebar.app/"
 
   depends_on macos: ">= :sonoma"
 
