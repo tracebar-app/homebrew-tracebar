@@ -7,7 +7,7 @@ cask "tracebar" do
   desc "Continuous graphical traceroute monitoring in your menubar"
   homepage "https://tracebar.app/"
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "TraceBar.app"
 
